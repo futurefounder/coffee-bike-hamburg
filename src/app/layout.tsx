@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Coffee Bike Hamburg - Mobiler Kaffeeservice in Hamburg",
+  title: "Coffee-Bike Hamburg - Mobiler Kaffeeservice in Hamburg",
   description:
     "Entdecken Sie Coffee Bike Hamburg, Ihren mobilen Kaffeeservice. Genießen Sie frisch gebrühten Kaffee an verschiedenen Standorten in Hamburg und Umgebung – perfekt für den schnellen Kaffeegenuss unterwegs.",
 };

@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 export default function Benefits() {
   const variants = {
@@ -17,19 +16,11 @@ export default function Benefits() {
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">
-              <motion.div
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ once: true, amount: 0.8 }}
-                variants={variants}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  alt="House"
-                  src="https://images.pexels.com/photos/1071883/pexels-photo-1071883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </motion.div>
+              <img
+                alt="House"
+                src="https://images.pexels.com/photos/1071883/pexels-photo-1071883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
           </div>
 
@@ -41,7 +32,7 @@ export default function Benefits() {
                 Private Veranstaltungen
               </h2>
 
-              <p className="mt-4 mb-12 text-gray-600">
+              <p className="mt-4 mb-12 text-gray-600 text-justify">
                 Machen Sie Ihr privates Event zu einem unvergesslichen Erlebnis
                 mit unserem mobilen Kaffee-Catering. <br />
                 <br /> Ob Geburtstage, Hochzeiten oder Familienfeiern – unser
@@ -60,7 +51,7 @@ export default function Benefits() {
                 <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-coffeeAccent group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full border-4 border-black group-hover:border-black"></span>
                 <span className="relative text-base text-black group-hover:text-white">
-                  Zum Kontaktformular{" "}
+                  Veranstaltung Anfragen{" "}
                 </span>
               </Link>
             </div>
@@ -76,7 +67,7 @@ export default function Benefits() {
               <h2 className="text-2xl uppercase font-bold sm:text-3xl">
                 Firmen-Events
               </h2>
-              <p className="mt-4 mb-12 text-gray-600">
+              <p className="mt-4 mb-12 text-gray-600 text-justify">
                 Bereichern Sie Ihr Firmenevent mit unserem einzigartigen mobilen
                 Kaffee-Catering.
                 <br />
@@ -97,7 +88,7 @@ export default function Benefits() {
                 <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-coffeeAccent group-hover:translate-x-0 group-hover:translate-y-0 "></span>
                 <span className="absolute inset-0 w-full h-full border-4 border-black group-hover:border-black"></span>
                 <span className="relative text-base text-black group-hover:text-white">
-                  Zum Kontaktformular{" "}
+                  Firmenevent Anfragen{" "}
                 </span>
               </Link>
             </div>
@@ -105,19 +96,11 @@ export default function Benefits() {
 
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">
-              <motion.div
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ once: true, amount: 0.8 }}
-                variants={variants}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  alt="House"
-                  src="https://images.pexels.com/photos/59884/pexels-photo-59884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </motion.div>
+              <img
+                alt="House"
+                src="https://images.pexels.com/photos/59884/pexels-photo-59884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>

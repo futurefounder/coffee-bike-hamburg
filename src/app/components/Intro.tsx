@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 
 export default function Intro() {
   const variants = {
@@ -15,20 +14,13 @@ export default function Intro() {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-24">
           <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
             <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-              <motion.div
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ once: true, amount: 0.8 }}
-                variants={variants}
-              >
-                <p className="mb-4 text-4xl font-extrabold text-coffeeAccent md:mb-6 md:text-lg xl:text-5xl">
-                  Moin, Moin!{" "}
-                </p>
-                <h1 className="mb-8 text-2xl font-bold text-black sm:text-5xl md:mb-12 md:text-4xl">
-                  Von Ihrem Coffee Bike Hamburg
-                </h1>
-              </motion.div>
-              <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
+              <p className="mb-4 text-4xl font-extrabold text-coffeeAccent md:mb-6 md:text-lg xl:text-5xl">
+                Moin, Moin!{" "}
+              </p>
+              <h1 className="mb-8 text-2xl font-bold text-black sm:text-5xl md:mb-12 md:text-4xl">
+                Von Ihrem Coffee-Bike Hamburg
+              </h1>
+              <p className="mb-8 text-justify leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
                 Wir bieten Ihnen ein genußvolles{" "}
                 <span className="font-bold"> Kaffee-Erlebnis</span>. Egal ob bei
                 <span className="font-bold">
@@ -42,7 +34,7 @@ export default function Intro() {
               <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
                 <a
                   href="#anfragen"
-                  className="relative px-6 py-3 font-bold text-black group"
+                  className="relative px-6 py-3 font-bold text-black group text-center"
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-coffeeAccent group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-black group-hover:border-black"></span>
@@ -60,20 +52,13 @@ export default function Intro() {
               </div>
             </div>
 
-            <div className="h-48 overflow-hidden rounded-lg  shadow-lg lg:h-auto xl:w-5/12">
-              <motion.div
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ once: true, amount: 0.8 }}
-                variants={variants}
-              >
-                <img
-                  src="https://images.pexels.com/photos/2700533/pexels-photo-2700533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  loading="lazy"
-                  alt="Photo by Fakurian Design"
-                  className="h-full w-full object-cover object-center"
-                />
-              </motion.div>
+            <div className="h-full overflow-hidden rounded-lg  lg:h-auto xl:w-12/12">
+              <img
+                src="/img/coffee-bike-hamburg-bike.webp"
+                loading="lazy"
+                alt="Photo by Fakurian Design"
+                className="h-full w-full object-cover object-center"
+              />
             </div>
           </section>
         </div>

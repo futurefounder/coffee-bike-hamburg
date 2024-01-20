@@ -69,7 +69,7 @@ export default function Form() {
             Kontaktformular{" "}
           </h2>
 
-          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg text-justify">
             Kontaktieren Sie uns unverbindlich, und wir beraten Sie gerne zu
             allen Details und Möglichkeiten, um Ihr Ereignis zu einem besonderen
             Erlebnis zu machen!
@@ -141,7 +141,7 @@ export default function Form() {
             </label>
             <input
               name="guests"
-              type="number"
+              type="text"
               value={guests}
               onChange={(e) => setGuests(e.target.value)}
               disabled={submitted}
@@ -158,7 +158,7 @@ export default function Form() {
             </label>
             <input
               name="date"
-              type="date"
+              type="text"
               value={date}
               onChange={(e) => setDate(e.target.value)}
               disabled={submitted}

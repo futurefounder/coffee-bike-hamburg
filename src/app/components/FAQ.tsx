@@ -25,7 +25,7 @@ export default function FAQ() {
             Häufig Gestellte Fragen
           </h2>
 
-          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg text-justify">
             Hier finden Sie Antworten zu den gängigsten Anliegen rund um unseren
             mobilen Kaffeeservice. Erfahren Sie Wissenswertes über unser Angebot
             und unserer Produkte. <br />
@@ -43,7 +43,7 @@ export default function FAQ() {
               className="flex cursor-pointer justify-between gap-2 py-4 text-black hover:text-coffeeAccent active:text-indigo-600"
             >
               <span className="font-semibold transition duration-100 md:text-lg">
-                Sind Buchungen für private Veranstaltungen möglich?
+                Wie lange benötigen Sie für den Aufbau?
               </span>
 
               <span
@@ -73,10 +73,9 @@ export default function FAQ() {
                 openStates[0] ? "block" : "hidden"
               }`}
             >
-              <span className="font-bold"> Ja</span>, unser mobiler
-              Kaffeeservice bietet flexible Lösungen für private Events aller
-              Art. Ob Hochzeiten, Geburtstage oder Familienfeiern, wir sorgen
-              für das perfekte Kaffeeerlebnis!
+              60 Min. vor Ausschankbeginn kommen wir am Veranstaltungsort an und
+              benötigen daraufhin ca. 30 Min. um das Coffee-Bike und die
+              hochwertige Siebträgermaschine betriebsbereit zu bekommen.
             </p>
           </div>
           {/* <!-- question - end --> */}
@@ -118,9 +117,13 @@ export default function FAQ() {
                 openStates[1] ? "block" : "hidden"
               }`}
             >
-              Wir bieten eine Vielzahl von Kaffeespezialitäten an, darunter
-              klassischen Espresso, Cappuccino, Latte Macchiato und auch
-              individuelle Kreationen nach Ihrem Geschmack.
+              Unser Angebot enthält alle möglichen Kaffeespezialitäten wie
+              Espresso, Caffe Americano, Cappuccino, Latte Macchiato,
+              Milchkaffee und Flat White. Hinzu bieten wir Euch unsere
+              saisonalen Specials mit unterschiedlichen Sirupvarianten für Euren
+              Kaffee an. Für Nicht-Kaffeetrinker haben wir Decaf Kaffee, heiße
+              Schokolade, Chai Latte und div. Teesorten im Angebot. Optional
+              können auch Kaltgetränke & Gebäck angeboten werden.
             </p>
           </div>
           {/* <!-- question - end --> */}
@@ -165,6 +168,49 @@ export default function FAQ() {
               Wir empfehlen, unseren Service mindestens vier Wochen im Voraus zu
               buchen, um Ihren Wunschtermin sicherzustellen. Bei kurzfristigen
               Anfragen bemühen wir uns, eine passende Lösung zu finden.
+            </p>
+          </div>
+          {/* <!-- question - end --> */}
+          {/* <!-- question - start --> */}
+          <div className="border-b">
+            <div
+              onClick={() => toggleFAQ(3)}
+              className="flex cursor-pointer justify-between gap-2 py-4 text-black hover:text-coffeeAccent active:text-indigo-600"
+            >
+              <span className="font-semibold transition duration-100 md:text-lg">
+                Welche Milchsorten bieten Sie an?
+              </span>
+
+              <span
+                className={`text-coffeeAccent duration-500 transition-transform ${
+                  openStates[3] ? "rotate-180" : "rotate-0"
+                }`}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <p
+              className={`mb-4 text-gray-500 transition-all duration-900 ease-in-out ${
+                openStates[3] ? "block" : "hidden"
+              }`}
+            >
+              Wir verwenden ausschließlich biozertifizierte H-Milch mit 3,8 %
+              Fettgehalt. Als Milchalternative bieten wir Euch Bio Hafermilch
+              an.
             </p>
           </div>
           {/* <!-- question - end --> */}

@@ -13,15 +13,28 @@ export default function Hero() {
           style={{ paddingTop: "56.25%" }}
         >
           {" "}
-          {/* Adjust the paddingTop percentage to match the video's aspect ratio */}
+          {/* Mobile Video */}
           <video
             autoPlay
             loop
             muted
-            className="absolute top-0 left-0 w-full h-screen object-cover z-0"
+            className="w-full h-screen object-cover absolute top-0 left-0 z-0 md:hidden"
           >
             <source
-              src="/video/coffee-bike-hamburg-bg-video.mp4"
+              src="/video/coffee-bike-hamburg-bg-video-mobile.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          {/* Desktop and Tablet Video */}
+          <video
+            autoPlay
+            loop
+            muted
+            className="w-full h-screen object-cover absolute top-0 left-0 z-0 md:h-auto lg:h-screen"
+          >
+            <source
+              src="/video/coffee-bike-hamburg-bg-video-hero.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -30,7 +43,7 @@ export default function Hero() {
 
         <div className="absolute top-0 left-0 right-0 mt-48 z-10 flex flex-col justify-center items-center pb-4">
           <p className="text-slate-100 mb-12 tracking-wide font-base md:text-base uppercase text-center">
-            Coffee Bike Hamburg
+            Coffee-Bike Hamburg
           </p>
           <p className="text-white text-3xl font-sans mb-16 tracking-wide font-extrabold md:text-4xl text-center">
             Ihr Kaffee-Catering im Norden

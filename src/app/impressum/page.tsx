@@ -12,7 +12,7 @@ export default function Impressum() {
           </h1>
           <span className="font-bold">
             {" "}
-            Coffee Bike Hamburg <br />
+            Coffee-Bike Hamburg <br />
           </span>
           <span>
             {" "}

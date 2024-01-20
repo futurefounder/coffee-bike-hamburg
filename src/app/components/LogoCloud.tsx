@@ -5,7 +5,7 @@ export default function LogoCloud() {
       <>
         <div className="mb-0 mt-12 md:mb-0 p-0">
           <h2 className="mb-4 text-center font-bold tracking-tight leading-tight uppercase text-3xl font-extrabold text-coffeeAccent md:mb-6 lg:text-3xl">
-            Bisherige Partner
+            Unsere Referenzen{" "}
           </h2>
         </div>
         <div className="flex overflow-hidden space-x-16 group p-12">

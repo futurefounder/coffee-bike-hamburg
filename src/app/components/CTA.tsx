@@ -9,7 +9,7 @@ export default function CTA({ headlineCTA }: CTAProps) {
         <div className="flex flex-col overflow-hidden rounded-lg bg-coffeeAccent sm:flex-row md:h-80">
           <div className="order-first h-48 w-full bg-gray-300 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
             <img
-              src="https://images.pexels.com/photos/7680213/pexels-photo-7680213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="/img/coffee-bike-hamburg-contact.webp"
               loading="lazy"
               alt="Photo by Andras Vas"
               className="h-full w-full object-cover object-center"
@@ -21,7 +21,7 @@ export default function CTA({ headlineCTA }: CTAProps) {
               {headlineCTA}
             </h2>
 
-            <p className="mb-8 max-w-md text-white">
+            <p className="mb-8 max-w-md text-white text-justify">
               Gerne beraten wir Sie auf dem kurzen Dienstweg am Telefon.
               Alternativ können Sie uns eine Anfrage über das Kontaktformular
               schicken.
@@ -33,9 +33,25 @@ export default function CTA({ headlineCTA }: CTAProps) {
             <div id="anfragen" className="mt-auto">
               <a
                 href="tel:+491746079273"
-                className="inline-block bg-white px-8 py-3 text-center text-sm font-semibold text-black outline-none transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base"
+                className="mr-6 hidden uppercase bg-coffeePrimary px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:text-coffeeAccent focus-visible:ring active:text-black md:text-base lg:inline-block"
               >
-                Telefon: 0174/6079273
+                <div className="flex items-center mr-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6 mr-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                    />
+                  </svg>
+                  0174/6079273{" "}
+                </div>
               </a>
             </div>
           </div>
