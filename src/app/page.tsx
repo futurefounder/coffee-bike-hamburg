@@ -7,6 +7,7 @@ import Intro from "./components/Intro";
 import Form from "./components/Form";
 import CTA from "./components/CTA";
 import Navigation from "./components/Navigation";
+import Benefits2 from "./components/Benefits2";
 
 export default function Home() {
   const headlineCTA_question = "Fragen?";
@@ -19,6 +20,7 @@ export default function Home() {
           <LogoCloud />
           <Intro />
           <Benefits />
+          <Benefits2 />
           <CTA headlineCTA={headlineCTA_question} />
           <Form />
           <FAQ />

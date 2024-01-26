@@ -14,10 +14,10 @@ export default function Intro() {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-24">
           <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
             <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-              <p className="mb-4 text-4xl font-extrabold text-coffeeAccent md:mb-6 md:text-lg xl:text-5xl">
+              <p className="mb-4 animate-fade text-4xl font-extrabold text-coffeeAccent md:mb-6 md:text-lg xl:text-5xl">
                 Moin, Moin!{" "}
               </p>
-              <h1 className="mb-8 text-2xl font-bold text-black sm:text-5xl md:mb-12 md:text-4xl">
+              <h1 className="mb-8 text-2xl   font-bold text-black sm:text-5xl md:mb-12 md:text-4xl">
                 Von Ihrem Coffee-Bike Hamburg
               </h1>
               <p className="mb-8 text-justify leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
