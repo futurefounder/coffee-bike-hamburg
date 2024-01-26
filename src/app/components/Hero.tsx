@@ -33,10 +33,7 @@ export default function Hero() {
             muted
             className="w-full h-screen object-cover absolute top-0 left-0 z-0 md:h-auto lg:h-screen"
           >
-            <source
-              src="/video/coffee-bike-hamburg-bg-video-hero.mp4"
-              type="video/mp4"
-            />
+            <source src="/video/coffee-bike-hero-new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
