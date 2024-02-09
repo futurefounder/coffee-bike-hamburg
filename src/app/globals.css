@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap"); */
+
+@font-face {
+  font-family: "Fuggles";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Fuggles-Regular.ttf") format("truetype");
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

@@ -1,10 +1,18 @@
 "use client";
 import Link from "next/link";
 import Navigation from "./Navigation";
+import Head from "next/head";
 
 export default function Hero() {
   return (
     <>
+      {" "}
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <header className="relative mb-4 overflow-hidden">
         {/* Navigation Component */}
         {/* <Navigation /> */}
@@ -39,11 +47,15 @@ export default function Hero() {
         </div>
 
         <div className="absolute top-0 left-0 right-0 mt-48 z-10 flex flex-col justify-center items-center pb-4">
-          <p className="text-slate-100 animate-fade-up mb-12 tracking-wide font-base md:text-base uppercase text-center">
+          <p className="text-slate-100 animate-fade-up mb-8 tracking-wide font-base md:text-base uppercase text-center">
             Coffee-Bike Hamburg
           </p>
-          <p className="text-white animate-fade-up text-3xl font-sans mb-16 tracking-wide font-extrabold md:text-4xl text-center">
-            Ihr Kaffee-Catering im Norden
+          <p className="text-white animate-fade-up text-3xl font-sans mb-12 tracking-wide font-extrabold md:text-4xl text-center">
+            Ihr <br />
+            <span className="font-fuggles text-6xl font-extrabold block mt-6">
+              Kaffee-Catering
+            </span>{" "}
+            <br /> im Norden
           </p>{" "}
           <Link
             href="#anfragen"

@@ -20,6 +20,9 @@ const config: Config = {
       "loop-scroll": "loop-scroll 45s linear infinite",
       "loop-scroll-reverse": "loop-scroll-reverse 45s linear infinite",
     },
+    fontFamily: {
+      fuggles: ["Fuggles", "cursive"],
+    },
     keyframes: {
       "loop-scroll": {
         from: { transform: "translateX(0)" },
