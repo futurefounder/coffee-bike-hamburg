@@ -51,9 +51,10 @@ export default function Hero() {
             Coffee-Bike Hamburg
           </p>
           <p className="text-white animate-fade-up text-3xl font-sans mb-12 tracking-wide font-extrabold md:text-4xl text-center">
-            Ihr <br />
+            Ihr
+            <br />
             <span className="font-fuggles text-6xl font-extrabold block mt-6">
-              Kaffee-Catering
+              mobiles Kaffee-Catering
             </span>{" "}
             <br /> im Norden
           </p>{" "}

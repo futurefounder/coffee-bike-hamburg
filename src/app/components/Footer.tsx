@@ -68,7 +68,7 @@ export default function Footer() {
                 <br />
                 <a
                   className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
-                  href="+49 174 607 92 73"
+                  href="tel:+49 174 607 92 73"
                 >
                   {" "}
                   0174 / 607 92 73{" "}
@@ -92,7 +92,7 @@ export default function Footer() {
                 <br />
                 <a
                   className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
-                  href="info@kaffee-bike-hamburg.de"
+                  href="mailto:info@kaffee-bike-hamburg.de"
                 >
                   info@kaffee-bike-hamburg.de{" "}
                 </a>
@@ -115,9 +115,9 @@ export default function Footer() {
                 <br />
                 <a
                   className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
-                  href="instagram.com/coffeeBikeHamburg"
+                  href="https://www.instagram.com/coffeeBike_Hamburg"
                 >
-                  &nbsp; coffeeBikeHamburg{" "}
+                  &nbsp; coffeeBike_Hamburg{" "}
                 </a>
               </div>
             </span>
@@ -131,7 +131,7 @@ export default function Footer() {
           {/* <!-- nav - start --> */}
           <div>
             <div className="mb-4 font-bold uppercase tracking-widest text-slate-100">
-              Über
+              Rechtliches
             </div>
 
             <nav className="flex flex-col gap-4">
