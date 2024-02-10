@@ -5,7 +5,7 @@ export default function Datenschutz() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation bgClass={"bg-coffeePrimary"} shouldChangeOnScroll={false} />
-      <div className="flex-grow bg-white mt-32 py-6 sm:py-8 lg:py-12">
+      <div className="flex-grow bg-white mt-32 mb-10 py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-md px-4 md:px-8">
           <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
             Datenschutzerklärung{" "}
@@ -62,7 +62,9 @@ export default function Datenschutz() {
             <p className="pt-2">
               Bei einer Kontaktaufnahme mit uns (z.B. per Kontaktformular oder
               E-Mail) werden Ihre Angaben zur Bearbeitung der Kontaktanfrage und
-              deren Abwicklung nur für geschäftliche Zwecke gespeichert.
+              deren Abwicklung nur für geschäftliche Zwecke gespeichert. <br />{" "}
+              <br />
+              Wir schätzen Ihre Privatsphäre und setzen keine Cookies ein.
             </p>
             <h2 className="text-xl font-semibold">3. Datenweitergabe</h2>
             <p>

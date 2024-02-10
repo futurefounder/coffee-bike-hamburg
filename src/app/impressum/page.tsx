@@ -5,14 +5,14 @@ export default function Impressum() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation bgClass={"bg-coffeePrimary"} shouldChangeOnScroll={false} />
-      <div className="flex-grow bg-white mt-32 py-6 sm:py-8 lg:py-12">
+      <div className="flex-grow bg-white mt-32 mb-10 py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-md px-4 md:px-8">
           <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
             Impressum gem. §5 TM
           </h1>
           <span className="font-bold">
             {" "}
-            Coffee-Bike Hamburg <br />
+            Kaffee-Bike-Hamburg.de <br />
           </span>
           <span>
             {" "}
