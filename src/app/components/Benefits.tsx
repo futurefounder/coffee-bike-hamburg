@@ -59,27 +59,15 @@ export default function Benefits() {
         </div>
       </div>
 
-      {/* Benefit Firmen { */}
+      {/* Benefit Firmen Events R */}
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-          <div className="relative z-10 lg:py-16">
-            <div className="relative h-64 sm:h-80 lg:h-full">
-              <img
-                alt="Firmen Events"
-                src="img/coffee-bike-hamburg-firmen-events.webp"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-            </div>
-          </div>
-
+          {/* Text Section with Gray Background on the Left */}
           <div className="relative flex items-center bg-gray-100">
-            <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
+            <span className="hidden lg:absolute lg:inset-y-0 lg:-end-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <h2 className="text-2xl uppercase font-bold sm:text-3xl">
-                Firmen-Events
-              </h2>
-
+              <h2 className="text-2xl font-bold sm:text-3xl">Firmen-Events</h2>
               <p className="mt-4 mb-12 text-gray-600 text-justify">
                 Bereichern Sie Ihr Firmenevent mit unserem einzigartigen mobilen
                 Kaffee-Catering.
@@ -104,6 +92,18 @@ export default function Benefits() {
                   Firmen-Events Anfragen{" "}
                 </span>
               </Link>
+               
+            </div>
+          </div>
+
+          {/* Image Section on the Right */}
+          <div className="relative z-10 lg:py-16">
+            <div className="relative h-64 sm:h-80 lg:h-full">
+              <img
+                alt="Firmen Events"
+                src="img/coffee-bike-hamburg-firmen-events.webp"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>

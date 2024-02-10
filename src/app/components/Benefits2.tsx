@@ -46,8 +46,8 @@ export default function Benefits2() {
                 Mobilität
               </h3>
               <p className="text-gray-500">
-                Mit unserem Coffee-Bike sind wir überall in Hamburg flexibel und
-                schnell einsatzbereit.
+                Mit unserem Coffee-Bike sind wir überall in Hamburg{" "}
+                <strong> flexibel und schnell </strong>einsatzbereit.
               </p>
             </div>
           </div>
@@ -77,8 +77,8 @@ export default function Benefits2() {
                 Leidenschaft
               </h3>
               <p className="text-gray-500">
-                Wir bieten erstklassigen Kaffee, frisch zubereitet mit
-                hochwertigen, lokal bezogenen Zutaten.
+                Wir bieten <strong> erstklassigen Kaffee</strong>, frisch
+                zubereitet mit hochwertigen, lokal bezogenen Zutaten.
               </p>
             </div>
           </div>
@@ -108,8 +108,8 @@ export default function Benefits2() {
                 Individualität
               </h3>
               <p className="text-gray-500">
-                Jedes Event wird mit unserem Coffee-Bike zu einem einzigartigen
-                und persönlichen Erlebnis.
+                Jedes Event wird mit unserem Coffee-Bike zu einem{" "}
+                <strong> einzigartigen und persönlichen</strong> Erlebnis.
               </p>
             </div>
           </div>

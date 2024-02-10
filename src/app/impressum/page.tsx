@@ -27,7 +27,6 @@ export default function Impressum() {
               info@coffee-bike-hamburg.de
             </a>
           </span>
-
           <p className="mt-12">
             <strong>Disclaimer</strong>
           </p>
@@ -41,14 +40,27 @@ export default function Impressum() {
             Sie dennoch etwas an unseren Seiten zu beanstanden haben, bitten wir
             um einen einfachen entsprechenden Hinweis, damit wir die Inhalte
             schnellstmöglich entfernen können.
+          </p>{" "}
+          <br />
+          <strong>Quellen</strong>
+          <p>
+            Video Homepage:{" "}
+            <a
+              className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
+              href="https://www.pexels.com/de-de/video/person-koffein-hand-becher-6769802/"
+            >
+              Kelly von Pexels
+            </a>
           </p>
           <p>
-            Quelle:{" "}
+            {" "}
+            Disclaimer:{" "}
             <a
               href="https://www.anwalt.de/vorlage/disclaimer-haftungsausschluss.php"
               title="Haftungsausschluss Vorlage von anwalt.de"
+              className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
             >
-              Disclaimer von anwalt.de
+              anwalt.de
             </a>
           </p>
         </div>
