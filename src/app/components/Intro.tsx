@@ -14,7 +14,7 @@ export default function Intro() {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-24">
           <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
             <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-              <p className="font-fuggles mb-4 animate-fade text-4xl font-bold text-coffeeAccent md:mb-6 md:text-lg font-bold md:text-5xl font-extrabold xl:text-7xl font-bold">
+              <p className="font-fuggles mb-4 animate-fade text-7xl font-bold text-coffeeAccent md:mb-6 md:text-lg font-bold md:text-5xl font-extrabold xl:text-7xl font-bold">
                 Moin, Moin!{" "}
               </p>
               <h1 className="mb-8 text-2xl font-bold text-black sm:text-3xl md:mb-12 md:text-4xl">

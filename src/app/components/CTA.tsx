@@ -33,7 +33,7 @@ export default function CTA({ headlineCTA }: CTAProps) {
             <div id="anfragen" className="mt-auto">
               <a
                 href="tel:+491746079273"
-                className="mr-6 hidden uppercase bg-coffeePrimary px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:text-coffeeAccent focus-visible:ring active:text-black md:text-base lg:inline-block"
+                className="inline-block bg-coffeePrimary px-8 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 hover:text-coffeeAccent md:text-base"
               >
                 <div className="flex items-center mr-3">
                   <svg

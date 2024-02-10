@@ -49,7 +49,7 @@ export default function Navigation({
         {/* <!-- logo - start --> */}
         <a
           href="/"
-          className="inline-flex items-center ml-6 gap-2.5 text-xs font-bold text-white md:text-base"
+          className="inline-flex items-center ml-6 gap-2.5 text-base font-bold text-white md:text-base"
           aria-label="logo"
         >
           <svg

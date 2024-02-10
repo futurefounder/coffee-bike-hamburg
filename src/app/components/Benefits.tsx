@@ -97,7 +97,7 @@ export default function Benefits() {
           </div>
 
           {/* Image Section on the Right */}
-          <div className="relative z-10 lg:py-16">
+          <div className="relative z-10 lg:py-16 order-first lg:order-none">
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="Firmen Events"
