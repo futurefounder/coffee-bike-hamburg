@@ -216,14 +216,14 @@ export default function FAQ() {
           {/* <!-- question - end --> */}
         </div>
       </div>
-      <div class="bg-white py-6 sm:py-8 lg:py-12">
-        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div class="flex flex-col items-center justify-between gap-4 rounded-lg bg-gray-100 p-4 sm:flex-row md:p-8">
+      <div className="bg-white py-6 sm:py-8 lg:py-12">
+        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+          <div className="flex flex-col items-center justify-between gap-4 rounded-lg bg-gray-100 p-4 sm:flex-row md:p-8">
             <div>
-              <h2 class="text-xl font-bold text-coffeeAccent md:text-2xl">
+              <h2 className="text-xl font-bold text-coffeeAccent md:text-2xl">
                 Lassen Sie uns gerne sprechen
               </h2>
-              <p class="text-gray-600">Ganz einfach und unverbindlich</p>
+              <p className="text-gray-600">Ganz einfach und unverbindlich</p>
             </div>
 
             <a
