@@ -3,12 +3,12 @@ export default function LogoCloud() {
     <section>
       {/* Logos right to left*/}
       <>
-        <div className="mb-0 mt-12 md:mb-0 p-0">
-          <h2 className="mb-4 text-center font-bold tracking-tight leading-tight uppercase text-3xl font-extrabold text-coffeeAccent md:mb-6 lg:text-3xl">
+        <div className="mb-0 mt-12 md:mb-0 mb-12">
+          <h2 className="mb-4 text-center font-bold tracking-tight leading-tight uppercase text-3xl font-extrabold text-coffeeAccent md:mb-12 lg:text-3xl">
             Unsere Referenzen{" "}
           </h2>
         </div>
-        <div className="flex overflow-hidden space-x-16 group p-12">
+        <div className="flex overflow-hidden space-x-16 group">
           <div className="flex space-x-16 animate-loop-scroll  ">
             <img
               loading="lazy"
@@ -140,7 +140,7 @@ export default function LogoCloud() {
       </>
       {/* Logos left to right */}
       <>
-        <div className="flex overflow-hidden space-x-16 group p-0 mb-24">
+        <div className="flex overflow-hidden space-x-16 group p-0 mb-12">
           <div className="flex space-x-16 animate-loop-scroll-reverse  ">
             <img
               loading="lazy"
