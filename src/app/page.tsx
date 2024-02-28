@@ -16,7 +16,8 @@ export default function Home() {
       <div className="flex flex-col min-h-screen">
         <main className="flex-grow">
           <Navigation bgClass={""} shouldChangeOnScroll={true} />
-          <Hero /> <Benefits2 />
+          <Hero />
+          <Benefits2 />
           <LogoCloud />
           <Intro />
           <Benefits />

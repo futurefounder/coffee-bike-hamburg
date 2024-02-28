@@ -18,7 +18,7 @@ export default function Benefits() {
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="Private Events"
-                src="/img/coffee-bike-hamburg-private-events-chrome-1.webp"
+                src="/img/coffee-bike-hamburg-firmen-events.webp"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -101,7 +101,7 @@ export default function Benefits() {
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="Firmen Events"
-                src="img/coffee-bike-hamburg-firmen-events.webp"
+                src="img/coffee-bike-hamburg-private-events-chrome-1.webp"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>

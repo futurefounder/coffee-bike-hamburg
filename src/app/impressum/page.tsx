@@ -5,11 +5,12 @@ export default function Impressum() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation bgClass={"bg-coffeePrimary"} shouldChangeOnScroll={false} />
-      <div className="flex-grow bg-white mt-32 mb-10 py-6 sm:py-8 lg:py-12">
+      <div className="flex-grow bg-white mt-28 mb-10 py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-md px-4 md:px-8">
-          <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
+          <h1 className="text-center text-3xl mb-8 font-bold text-gray-800 sm:text-3xl md:mb-6">
             Impressum gem. §5 TM
-          </h1>
+          </h1>{" "}
+          <br />
           <span className="font-bold">
             {" "}
             Kaffee-Bike-Hamburg.de <br />
@@ -21,13 +22,13 @@ export default function Impressum() {
             Telefon: +49 174 607 92 73 <br />
             Email:{" "}
             <a
-              href="mailto:info@coffee-bike-hamburg.de"
+              href="mailto:infokaffee-bike-hamburg.de"
               className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
             >
-              info@coffee-bike-hamburg.de
+              info@kaffee-bike-hamburg.de
             </a>
           </span>
-          <p className="mt-12">
+          <p className="mt-6">
             <strong>Disclaimer</strong>
           </p>
           <p>
@@ -41,8 +42,9 @@ export default function Impressum() {
             um einen einfachen entsprechenden Hinweis, damit wir die Inhalte
             schnellstmöglich entfernen können.
           </p>{" "}
-          <br />
-          <strong>Quellen</strong>
+          <p className="mt-6">
+            <strong>Quellen</strong>
+          </p>
           <p>
             Video Homepage:{" "}
             <a

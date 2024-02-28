@@ -1,10 +1,10 @@
 export default function Benefits2() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="bg-white">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         {/*  text - start */}
-        <div className="mb-10 md:mb-16">
-          <h2 className="mb-4 text-center  uppercase text-3xl font-extrabold text-coffeeAccent  md:mb-6 lg:text-3xl">
+        <div className="mb-10 md:mb-10">
+          <h2 className="mb-8 text-center uppercase text-3xl font-extrabold text-coffeeAccent md:mb-16 lg:text-3xl">
             Wir sind Ihr Kaffee-Partner
           </h2>
 
@@ -16,7 +16,7 @@ export default function Benefits2() {
         </div>
         {/*  text - end */}
 
-        <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-3 md:mb-16">
           {/*  feature - start */}
           <div className="flex divide-x rounded-lg border bg-gray-50">
             <div className="flex items-center p-2 text-coffeeAccent md:p-4">

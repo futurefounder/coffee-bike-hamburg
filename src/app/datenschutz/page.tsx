@@ -20,10 +20,10 @@ export default function Datenschutz() {
               <br />
               Email:{" "}
               <a
-                href="mailto:info@coffee-bike-hamburg.de"
-                className="text-coffeeAccent hover:underline"
+                href="mailto:info@kaffee-bike-hamburg.de"
+                className="transition duration-100 hover:text-coffeeAccent hover:text-coffeeAccent"
               >
-                info@coffee-bike-hamburg.de
+                info@kaffee-bike-hamburg.de
               </a>
             </p>
             <p>

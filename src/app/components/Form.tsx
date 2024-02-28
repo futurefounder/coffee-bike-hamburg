@@ -16,13 +16,14 @@ export default function Form() {
   const [phone, setPhone] = useState("");
   const [date, setDate] = useState("");
   const [guests, setGuests] = useState("");
+  const [duration, setDuration] = useState("");
 
   const [submitted, setSubmitted] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    await submit({ message, name, email, phone, date, guests });
+    await submit({ message, name, email, phone, date, duration, guests });
     setSubmitted(true);
     setShowModal(true);
   };
@@ -45,17 +46,34 @@ export default function Form() {
         <>
           <div className="modal-backdrop"></div>
           <div className="fixed inset-0 z-50 flex items-center justify-center">
-            <div className="p-6 bg-white rounded-lg shadow-lg w-80">
-              <p className="mb-4 text-center text-l">
+            <div className="p-4 bg-white rounded-lg shadow-lg w-80">
+              <p className="text-center text-l">
                 {" "}
                 <br />
-                Danke! 😊 <br /> Ich werde mich schnellstmöglich bei Ihnen
-                melden! <br /> <br />- Benjamin Stoltenberg{" "}
+                Vielen Dank! 😊 <br /> Wir werde mich schnellstmöglich bei Ihnen
+                melden! <br /> <br />
               </p>
 
-              <p className="font-bold text-center">
-                <a onClick={closeModal} className="cursor-pointer">
-                  Schließen{" "}
+              <p className="mb-4 font-bold text-center">
+                <a
+                  onClick={closeModal}
+                  className="cursor-pointer flex justify-center items-center hover:text-coffeeAccent"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={3}
+                    stroke="currentColor"
+                    className="w-5 h-5 mr-2" // Added mr-2 for spacing between the icon and text
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18 18 6M6 6l12 12"
+                    />
+                  </svg>
+                  Schließen
                 </a>
               </p>
             </div>
@@ -120,9 +138,10 @@ export default function Form() {
               htmlFor="phone"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
             >
-              Telefonnummer
+              Telefonnummer*
             </label>
             <input
+              required
               name="phone"
               type="text"
               value={phone}
@@ -137,9 +156,10 @@ export default function Form() {
               htmlFor="guests"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
             >
-              Gäste
+              Gäste*
             </label>
             <input
+              required
               name="guests"
               type="text"
               value={guests}
@@ -154,9 +174,10 @@ export default function Form() {
               htmlFor="date"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
             >
-              Datum des Events
+              Datum des Events*
             </label>
             <input
+              required
               name="date"
               type="text"
               value={date}
@@ -168,10 +189,28 @@ export default function Form() {
 
           <div className="sm:col-span-2">
             <label
+              htmlFor="date"
+              className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+            >
+              Dauer des Events*
+            </label>
+            <input
+              required
+              name="duration"
+              type="text"
+              value={duration}
+              onChange={(e) => setDuration(e.target.value)}
+              disabled={submitted}
+              className={getFieldClassNames(submitted)}
+            />
+          </div>
+
+          <div className="sm:col-span-2">
+            <label
               htmlFor="message"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
             >
-              Nachricht*
+              Nachricht
             </label>
             <textarea
               required
