@@ -13,13 +13,10 @@ export default function Hero() {
           rel="stylesheet"
         />
       </Head>
-      <header className="relative mb-4 overflow-hidden">
+      <header className="relative overflow-hidden">
         {/* Navigation Component */}
         {/* <Navigation /> */}
-        <div
-          className="relative w-full overflow-hidden h-screen"
-          style={{ paddingTop: "56.25%" }}
-        >
+        <div className="relative w-full overflow-hidden h-screen">
           {" "}
           {/* Mobile Video */}
           <video

@@ -60,7 +60,7 @@ export default function Benefits() {
       </div>
 
       {/* Benefit Firmen Events R */}
-      <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-2xl px-4 py-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           {/* Text Section with Gray Background on the Left */}
           <div className="relative flex items-center bg-gray-100">
@@ -97,7 +97,7 @@ export default function Benefits() {
           </div>
 
           {/* Image Section on the Right */}
-          <div className="relative z-10 lg:py-16 order-first lg:order-none">
+          <div className="relative z-10 lg:py-6 order-first lg:order-none">
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="Firmen Events"
@@ -109,7 +109,7 @@ export default function Benefits() {
         </div>
       </div>
       {/* Benefit Messe */}
-      <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-2xl px-4 py-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">

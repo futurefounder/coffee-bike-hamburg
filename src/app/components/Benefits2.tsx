@@ -4,7 +4,7 @@ export default function Benefits2() {
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         {/*  text - start */}
         <div className="mb-10 md:mb-10">
-          <h2 className="mb-8 mt-12 text-center uppercase text-3xl font-extrabold text-coffeeAccent md:mb-16 lg:text-3xl">
+          <h2 className="mb-8 mt-12 text-center uppercase text-3xl font-extrabold text-coffeeAccent md:mb-10 lg:text-3xl lg:mt-16 lg:mb-16">
             Wir sind Ihr Kaffee-Partner
           </h2>
 
