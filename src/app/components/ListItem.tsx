@@ -14,7 +14,7 @@ export default function ListItem({ post }: Props) {
     <div>
       <li className="mt-4 dark:text-white/90">
         <Link
-          className="text-stone-950 hover:text-purple-700"
+          className="text-stone-950 hover:text-coffeeAccent"
           href={`/posts/${id}`}
         >
           <div className="relative overflow-hidden bg-no-repeat bg-cover rounded-xl">

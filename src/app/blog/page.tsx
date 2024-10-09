@@ -4,7 +4,7 @@ import Posts from "../components/Posts";
 import CTA from "../components/CTA";
 
 export default function Impressum() {
-  const headlineCTA_question = "Intessieren Sie sich für Kaffee?";
+  const headlineCTA_question = "Fragen zu Kaffee?";
 
   return (
     <div className="flex flex-col min-h-screen">

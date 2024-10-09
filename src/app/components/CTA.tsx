@@ -4,24 +4,24 @@ type CTAProps = {
 
 export default function CTA({ headlineCTA }: CTAProps) {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div className="py-6 bg-white sm:py-8 lg:py-12">
+      <div className="px-4 mx-auto max-w-screen-2xl md:px-8">
         <div className="flex flex-col overflow-hidden rounded-lg bg-coffeeAccent sm:flex-row md:h-80">
-          <div className="order-first h-48 w-full bg-gray-300 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
+          <div className="order-first w-full h-48 bg-gray-300 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
             <img
               src="/img/coffee-bike-hamburg-contact.webp"
               loading="lazy"
               alt="Photo by Andras Vas"
-              className="h-full w-full object-cover object-center"
+              className="object-cover object-center w-full h-full"
             />
           </div>
 
-          <div className="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
+          <div className="flex flex-col w-full p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
             <h2 className="mb-4 text-xl font-bold text-white uppercase md:text-2xl lg:text-4xl">
               {headlineCTA}
             </h2>
 
-            <p className="mb-8 max-w-md text-white text-justify">
+            <p className="max-w-md mb-8 text-justify text-white">
               Gerne beraten wir Sie auf dem kurzen Dienstweg am Telefon.
               Alternativ können Sie uns eine Anfrage über das Kontaktformular
               schicken.
@@ -33,7 +33,7 @@ export default function CTA({ headlineCTA }: CTAProps) {
             <div id="anfragen" className="mt-auto">
               <a
                 href="tel:+491746079273"
-                className="inline-block bg-coffeePrimary px-8 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 hover:text-coffeeAccent md:text-base"
+                className="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 outline-none bg-coffeePrimary hover:text-coffeeAccent md:text-base"
               >
                 <div className="flex items-center mr-3">
                   <svg
