@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
+import CTA from "@/app/components/CTA";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -90,6 +91,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             </article>
           </div>
         </main>
+        <CTA headlineCTA={"Kaffeeklatsch?"} />
       </div>
       <Footer />
     </div>

@@ -5,8 +5,6 @@ headerImage: "https://images.pexels.com/photos/6347955/pexels-photo-6347955.jpeg
 altText: "Eine dampfende Tasse Kaffee auf einem Holztisch"
 ---
 
-## Die Vorteile von Kaffee: Mehr als nur ein Morgenritual
-
 Kaffee gehört für viele Menschen zum festen Bestandteil des Alltags. Sei es, um den Tag zu starten oder eine kleine Pause zu genießen – Kaffee ist überall. Doch wusstest du, dass das beliebte Getränk weit mehr kann, als nur müde Geister zu wecken? In diesem Artikel erfährst du, warum Kaffee nicht nur ein Genussmittel ist, sondern auch viele positive Auswirkungen auf unsere Gesundheit haben kann.
 
 ## Koffein: Der Energielieferant

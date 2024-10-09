@@ -5,8 +5,6 @@ headerImage: "https://images.pexels.com/photos/92354/pexels-photo-92354.jpeg?aut
 altText: "Nahaufnahme von Kaffeebohnen"
 ---
 
-## Kaffeebohnen: Die Reise von der Pflanze in deine Tasse
-
 Kaffee – ein Getränk, das weltweit Millionen Menschen täglich begleitet. Doch wie viel wissen wir eigentlich über den Weg, den die Kaffeebohne von der Pflanze bis in unsere Tasse zurücklegt? In diesem Beitrag nehmen wir dich mit auf eine Reise durch die faszinierende Welt der Kaffeebohnen und werfen einen genaueren Blick auf die Schritte, die notwendig sind, um den perfekten Kaffee zu genießen.
 
 ## Die Herkunft der Kaffeebohnen
