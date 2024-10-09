@@ -44,52 +44,54 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   return (
     <div>
-      <Navigation />
-      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 dark:bg-gray-900">
-        <div className="flex justify-between max-w-screen-xl px-4 mx-auto ">
-          <article className="w-full max-w-2xl mx-auto format format-sm sm:format-base lg:format-lg format-purple dark:format-invert">
-            <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
-              {title}
-            </h1>
+      <Navigation bgClass={"bg-coffeePrimary"} shouldChangeOnScroll={false} />
+      <div className="flex-grow py-6 mb-10 bg-white mt-28 sm:py-8 lg:py-12">
+        <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 ">
+          <div className="flex justify-between max-w-screen-xl px-4 mx-auto ">
+            <article className="w-full max-w-2xl mx-auto format format-sm sm:format-base lg:format-lg format-purple dark:format-invert">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl ">
+                {title}
+              </h1>
 
-            <p className="text-xs text-base font-light text-gray-500 dark:text-gray-400">
-              {pubDate}
-            </p>
-            <img
-              src={headerImage}
-              alt={altText}
-              className="mt-4 mb-4 rounded-lg"
-            />
+              <p className="text-xs text-base font-light text-black">
+                {pubDate}
+              </p>
+              <img
+                src={headerImage}
+                alt={altText}
+                className="mt-4 mb-4 rounded-lg"
+              />
 
-            <article className="prose lg:prose-xl">
-              <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+              <article className="prose lg:prose-xl">
+                <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+              </article>
+              <br />
+              <Link
+                href="/blog"
+                className="text-base font-bold hover:text-coffeeAccent"
+              >
+                <div className="flex flex-row">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  &nbsp;Zurück zum Blog
+                </div>
+              </Link>
             </article>
-            <br />
-            <Link
-              href="/blog"
-              className="text-base font-bold hover:text-purple-700"
-            >
-              <div className="flex flex-row">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                &nbsp;Back to Blog
-              </div>
-            </Link>
-          </article>
-        </div>
-      </main>
+          </div>
+        </main>
+      </div>
       <Footer />
     </div>
   );
