@@ -46,7 +46,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
   return (
     <div>
       <Navigation bgClass={"bg-coffeePrimary"} shouldChangeOnScroll={false} />
-      <div className="flex-grow py-6 mb-10 bg-white mt-28 sm:py-8 lg:py-12">
+      <div className="flex-grow py-6 mt-10 mb-10 bg-white sm:py-8 lg:py-12">
         <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 ">
           <div className="flex justify-between max-w-screen-xl px-4 mx-auto ">
             <article className="w-full max-w-2xl mx-auto format format-sm sm:format-base lg:format-lg format-purple dark:format-invert">
@@ -68,16 +68,16 @@ export default async function Post({ params }: { params: { postId: string } }) {
               <br />
               <Link
                 href="/blog"
-                className="text-base font-bold hover:text-coffeeAccent"
+                className="text-xl font-bold md:text-2xl hover:text-coffeeAccent"
               >
                 <div className="flex flex-row">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    strokeWidth={2}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-6 h-6 md:w-8 md:h-8"
                   >
                     <path
                       strokeLinecap="round"
