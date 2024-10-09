@@ -1,8 +1,11 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import Posts from "../components/Posts";
+import CTA from "../components/CTA";
 
 export default function Impressum() {
+  const headlineCTA_question = "Intessieren Sie sich für Kaffee?";
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation bgClass={"bg-coffeePrimary"} shouldChangeOnScroll={false} />
@@ -13,6 +16,7 @@ export default function Impressum() {
         </h1>{" "}
         <Posts />
       </div>
+      <CTA headlineCTA={headlineCTA_question} />\
       <Footer />
     </div>
   );
