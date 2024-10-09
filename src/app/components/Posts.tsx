@@ -14,10 +14,6 @@ export default function Posts() {
           <ListItem key={post.id} post={post} />
         ))}{" "}
       </ul>
-      <span className="ml-4 mr-4 text-sm italic text-purple-600 dark:text-white/90">
-        🔔 Hier anmelden, um den Blog zu folgen!
-      </span>{" "}
-      <br />
     </section>
   );
 }
