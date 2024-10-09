@@ -52,16 +52,15 @@ export default async function Post({ params }: { params: { postId: string } }) {
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl ">
                 {title}
               </h1>
-
               <p className="text-xs text-base font-light text-black">
                 {pubDate}
               </p>
+              {/* eslint-disable-next-line @next/next/no-img-element*/}
               <img
                 src={headerImage}
                 alt={altText}
                 className="mt-4 mb-4 rounded-lg"
               />
-
               <article className="prose lg:prose-xl">
                 <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
               </article>
