@@ -11,7 +11,7 @@ Kaffee – ein Getränk, das weltweit Millionen Menschen täglich begleitet. Doc
 
 ## Die Herkunft der Kaffeebohnen
 
-![Kaffeebohnen auf einer Pflanze](https://images.pexels.com/photos/3028995/pexels-photo-3028995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+![Kaffeebohnen auf einer Pflanze](https://images.pexels.com/photos/7125616/pexels-photo-7125616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
 Kaffeebohnen stammen aus der Frucht des Kaffeebaums, der hauptsächlich in tropischen Regionen wie Südamerika, Afrika und Südostasien angebaut wird. Die beiden bekanntesten Sorten sind Arabica und Robusta. Arabica gilt als die qualitativ hochwertigere Bohne mit einem sanfteren und aromatischeren Geschmack, während Robusta oft kräftiger und bitterer schmeckt.
 
@@ -41,4 +41,4 @@ Gönn dir das nächste Mal, wenn du deinen Kaffee genießt, einen Moment, um die
 
 ###### Bildquelle Pexels:
 
-- [Markus Spiske](https://www.pexels.com/photo/photo-of-coffee-beans-3028995/)
+- [Michael Burrows](https://www.pexels.com/photo/faceless-farmers-sorting-unroasted-coffee-beans-above-sieve-7125616/)
